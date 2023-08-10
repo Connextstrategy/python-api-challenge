@@ -7,7 +7,7 @@ This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
 In this assignment, I used the concepts I learned to begin working with APIs, using two API, OpenWeatherMap API and Geoapify, to analyze, manipulate, and 
 
-## pybank
+## WeatherPY
 
 In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
 
@@ -33,26 +33,40 @@ Next, create a series of scatter plots. Be sure to include the linear regression
 
 https://static.bc-edx.com/data/dl-1-2/m6/lms/img/linear-regression-plot.png
 
+You should create the following plots:
 
-## pypoll
+Northern Hemisphere: Temperature vs. Latitude
 
-PyBank Instructions
+Southern Hemisphere: Temperature vs. Latitude
 
-In this Challenge, I was tasked with helping a small, rural town modernize its vote-counting process.
+Northern Hemisphere: Humidity vs. Latitude
 
-I was given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". The task is to create a Python script that analyzes the votes and calculates each of the following values:
+Southern Hemisphere: Humidity vs. Latitude
 
-* The total number of votes cast
+Northern Hemisphere: Cloudiness vs. Latitude
 
-* A complete list of candidates who received votes
+Southern Hemisphere: Cloudiness vs. Latitude
 
-* The percentage of votes each candidate won
+Northern Hemisphere: Wind Speed vs. Latitude
 
-* The total number of votes each candidate won
+Southern Hemisphere: Wind Speed vs. Latitude
 
-* The winner of the election based on popular vote
+After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
-Your analysis should align with the following results:
+
+## VacationPY
+
+In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
+
+The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
+
+Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
+
+To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
+
+Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+
+
 
 ![image](https://github.com/Connextstrategy/python-challenge/assets/18508699/6fabf385-b74e-4fc1-be13-537addabf39f)
 
