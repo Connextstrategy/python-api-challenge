@@ -35,21 +35,21 @@ Next, create a series of scatter plots. Be sure to include the linear regression
 
 You should create the following plots:
 
-Northern Hemisphere: Temperature vs. Latitude
+- Northern Hemisphere: Temperature vs. Latitude
 
-Southern Hemisphere: Temperature vs. Latitude
+- Southern Hemisphere: Temperature vs. Latitude
 
-Northern Hemisphere: Humidity vs. Latitude
+- Northern Hemisphere: Humidity vs. Latitude
 
-Southern Hemisphere: Humidity vs. Latitude
+- Southern Hemisphere: Humidity vs. Latitude
 
-Northern Hemisphere: Cloudiness vs. Latitude
+- Northern Hemisphere: Cloudiness vs. Latitude
 
-Southern Hemisphere: Cloudiness vs. Latitude
+- Southern Hemisphere: Cloudiness vs. Latitude
 
-Northern Hemisphere: Wind Speed vs. Latitude
+- Northern Hemisphere: Wind Speed vs. Latitude
 
-Southern Hemisphere: Wind Speed vs. Latitude
+- Southern Hemisphere: Wind Speed vs. Latitude
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
@@ -70,11 +70,11 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 
 2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
-*A max temperature lower than 27 degrees but higher than 21
+- A max temperature lower than 27 degrees but higher than 21
 
-*Wind speed less than 4.5 m/s
+- Wind speed less than 4.5 m/s
 
-*Zero cloudiness
+- Zero cloudiness
 
 3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 
