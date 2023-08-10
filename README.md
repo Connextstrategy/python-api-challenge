@@ -109,6 +109,10 @@ While building your script, pay attention to the cities you are using in your qu
 
 Hint: Consider the full range of latitudes.
 
+Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
+
+Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
+
 ## Authors
 
 Christopher Manfredi 
