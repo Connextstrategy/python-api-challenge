@@ -18,13 +18,13 @@ To get started, the code required to generate random geographic coordinates and 
 Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
 To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
 
-Latitude vs. Temperature
+- Latitude vs. Temperature
 
-Latitude vs. Humidity
+- Latitude vs. Humidity
 
-Latitude vs. Cloudiness
+- Latitude vs. Cloudiness
 
-Latitude vs. Wind Speed
+- Latitude vs. Wind Speed
 
 Requirement 2: Compute Linear Regression for Each Relationship
 To fulfill the second requirement, compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). You may find it helpful to define a function in order to create the linear regression plots.
@@ -107,7 +107,7 @@ You will need to apply your critical thinking skills to understand how and why w
 
 While building your script, pay attention to the cities you are using in your query pool. Are you covering the full range of latitudes and longitudes? Or are you choosing 500 cities from one region of the world? Even if you were a geography genius, simply listing 500 cities based on your personal selection would create a biased dataset. Try to think of ways that you can counter these selection issues.
 
-Hint: Consider the full range of latitudes.
+      Hint: Consider the full range of latitudes.
 
 Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
 
