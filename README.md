@@ -31,7 +31,7 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
 
-https://static.bc-edx.com/data/dl-1-2/m6/lms/img/linear-regression-plot.png
+![image](https://github.com/Connextstrategy/python-api-challenge/assets/18508699/5809c4d6-79d1-48de-bac1-4e4ffd0aa608)
 
 You should create the following plots:
 
