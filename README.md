@@ -88,7 +88,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 ### Dependencies
 
 
-## Import APIs from OpenWeatherMap API & 
+## Import APIs from OpenWeatherMap API & citipy to determine the cities based on latitude and longitude for WeatherPY
 
 * Using Jupyter Notebooks or Visual Studio Code for coding and data visualizations
 
@@ -100,7 +100,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 * import time
 * from scipy.stats import linregress
 
-# Import the OpenWeatherMap API key
+# Import the OpenWeatherMap API key 
 from api_keys import weather_api_key
 
 # Import citipy to determine the cities based on latitude and longitude
