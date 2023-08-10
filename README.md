@@ -100,11 +100,10 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 * import time
 * from scipy.stats import linregress
 
-# Import the OpenWeatherMap API key 
-from api_keys import weather_api_key
-
-# Import citipy to determine the cities based on latitude and longitude
-from citipy import citipy
+## Import APIs from GEOAPIFY for VacationPY
+* import hvplot.pandas
+* import pandas as pd
+* import requests
 
 ### Installing
 
