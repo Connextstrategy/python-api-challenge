@@ -66,9 +66,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 
 Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-
-
-![image](https://github.com/Connextstrategy/python-challenge/assets/18508699/6fabf385-b74e-4fc1-be13-537addabf39f)
+![image](https://github.com/Connextstrategy/python-api-challenge/assets/18508699/95ef2c89-7992-4387-b712-d79bd3c015b5)
 
 
 ### Dependencies
